@@ -1,4 +1,4 @@
-package BussinessLayer.Entity;
+package BussinessLayer.Entity.User;
 
 public abstract class User {
     protected int id;
@@ -6,19 +6,16 @@ public abstract class User {
     protected int age;
     protected String email;
     protected String password;
-    protected String role;
-    protected boolean gender;
     protected String phone_number;
     protected String address;
 
-    public User(int id, String name, int age, String email, String password, String role, boolean gender, String phone_number, String address) {
+    public User(int id, String name, int age, String email, String password, String phone_number, String address) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.email = email;
         this.password = password;
-        this.role = role;
-        this.gender = gender;
+
         this.phone_number = phone_number;
         this.address = address;
     }
@@ -61,22 +58,6 @@ public abstract class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
-
-    public boolean isGender() {
-        return gender;
-    }
-
-    public void setGender(boolean gender) {
-        this.gender = gender;
     }
 
     public String getPhone_number() {
