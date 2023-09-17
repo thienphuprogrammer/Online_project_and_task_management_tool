@@ -1,4 +1,4 @@
 package BussinessLayer.Entity;
 
-public class Manager {
+public class Doc {
 }

@@ -1,4 +1,4 @@
 package DataLayer;
 
-public interface IFileManager {
+public interface IFileManager<T> {
 }

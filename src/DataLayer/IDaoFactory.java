@@ -1,4 +1,4 @@
 package DataLayer;
 
-public interface IDaoFactory {
+public interface IDaoFactory<T> {
 }
