@@ -1,5 +1,5 @@
 package bussinesslayer.service;
-import bussinesslayer.entity.Project.Project;
+import bussinesslayer.entity.project.Project;
 public class ProjectService implements IService<Project> {
     
 }
