@@ -1,4 +1,4 @@
-package datalayer.daoconnection;
+package datalayer;
 
 public interface IDaoFactory {
     public IConnection getConnection();

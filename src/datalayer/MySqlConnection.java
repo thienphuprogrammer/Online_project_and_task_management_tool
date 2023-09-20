@@ -1,4 +1,4 @@
-package datalayer.daoconnection;
+package datalayer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

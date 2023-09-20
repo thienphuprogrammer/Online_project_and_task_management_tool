@@ -1,4 +1,6 @@
 package datalayer;
 
-public interface IFileManager<T> {
+public interface IFileManager {
+    void writeToFile(String content, String fileName);
+    String readFromFile(String fileName);
 }
