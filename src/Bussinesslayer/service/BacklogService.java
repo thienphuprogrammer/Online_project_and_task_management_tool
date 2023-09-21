@@ -1,6 +1,6 @@
-package bussinesslayer.service;
+package Bussinesslayer.service;
 
-import bussinesslayer.entity.space.Backlog;
+import Bussinesslayer.entity.space.Backlog;
 
 public class BacklogService implements IService<Backlog>{
     public BacklogService() {

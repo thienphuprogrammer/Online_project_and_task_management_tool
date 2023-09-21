@@ -1,6 +1,6 @@
-package bussinesslayer.service;
+package Bussinesslayer.service;
 
-import bussinesslayer.entity.Doc;
+import Bussinesslayer.entity.Doc;
 
 public class DocsService implements IService<Doc> {
     public DocsService() {

@@ -1,4 +1,4 @@
-package bussinesslayer.service;
+package Bussinesslayer.service;
 
 public interface IService<T> {
 

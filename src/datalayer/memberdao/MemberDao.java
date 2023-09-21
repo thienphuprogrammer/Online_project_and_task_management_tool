@@ -1,6 +1,6 @@
 package datalayer.memberdao;
 
-import bussinesslayer.entity.user.Member;
+import Bussinesslayer.entity.user.Member;
 
 public class MemberDao implements IMemberDao<Member> {
 }

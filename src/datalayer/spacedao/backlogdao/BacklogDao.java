@@ -1,11 +1,5 @@
 package datalayer.spacedao.backlogdao;
 
-import datalayer.DaoFactory;
-import datalayer.IConnection;
-import bussinesslayer.entity.space.Backlog;
-
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class BacklogDao<Backlog> implements IBacklogDao<Backlog> {

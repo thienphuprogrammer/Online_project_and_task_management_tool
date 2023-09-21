@@ -1,11 +1,10 @@
-package bussinesslayer.entity.user;
+package Bussinesslayer.entity.user;
 
-public class Member extends User {
+public class Manager {
     private String role;
     private boolean gender;
 
-    public Member(int id, String name, int age, String email, String password, String phone_number, String address, String role, boolean gender) {
-        super(id, name, age, email, password, phone_number, address);
+    public Manager(String role, boolean gender) {
         this.role = role;
         this.gender = gender;
     }
