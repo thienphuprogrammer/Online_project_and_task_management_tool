@@ -14,24 +14,24 @@ public class BacklogDao<Backlog> implements IBacklogDao<Backlog> {
 
     @Override
     public Backlog getById(int id) throws Exception {
-        Backlog backlog = null;
-        String sql = "SELECT * FROM Backlog WHERE id = ?";
-
-        try (Connection connection = DaoFactory.getConnection();
-             PreparedStatement statement = connection.prepareStatement(sql)) {
-            statement.setInt(1, id);
-            try (ResultSet resultSet = statement.executeQuery()) {
-                while (resultSet.next()) {
-                    backlog = new Backlog();
-                    backlog.setId(resultSet.getInt("id"));
-                    backlog.setName(resultSet.getString("name"));
-                }
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return backlog;
-
+//        Backlog backlog = null;
+//        String sql = "SELECT * FROM Backlog WHERE id = ?";
+//
+//        try (Connection connection = DaoFactory.getConnection();
+//             PreparedStatement statement = connection.prepareStatement(sql)) {
+//            statement.setInt(1, id);
+//            try (ResultSet resultSet = statement.executeQuery()) {
+//                while (resultSet.next()) {
+////                    backlog = new Backlog();
+////                    backlog.setId(resultSet.getInt("id"));
+////                    backlog.setName(resultSet.getString("name"));
+//                }
+//            }
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        return backlog;
+        return null;
     }
 
     @Override
