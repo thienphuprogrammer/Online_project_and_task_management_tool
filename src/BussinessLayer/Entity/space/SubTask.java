@@ -30,11 +30,11 @@ public class SubTask extends Space {
         this.taskId = taskId;
     }
 
-    public boolean isStatus() {
+    public int isStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 }

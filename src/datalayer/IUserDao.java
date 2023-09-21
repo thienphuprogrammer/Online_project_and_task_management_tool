@@ -1,4 +1,4 @@
-package dataLayer;
+package datalayer;
 
 public interface IUserDao<T> {
 }

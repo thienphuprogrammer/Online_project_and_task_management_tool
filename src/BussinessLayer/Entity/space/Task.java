@@ -30,11 +30,11 @@ public class Task extends Space {
         this.sprintId = sprintId;
     }
 
-    public boolean isStatus() {
+    public int isStatus() {
         return status;
     }
 
-    public void setStatus(boolean status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 }
