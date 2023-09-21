@@ -1,6 +1,6 @@
-package BussinessLayer.Service;
+package Bussinesslayer.service;
 
-import BussinessLayer.Entity.User.Manager;
+import Bussinesslayer.entity.user.Manager;
 
 public class ManagerService implements IService<Manager> {
     

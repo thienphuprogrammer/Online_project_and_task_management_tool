@@ -1,4 +1,4 @@
-package BussinessLayer.Entity;
+package bussinesslayer.entity;
 
 public class Doc {
 }

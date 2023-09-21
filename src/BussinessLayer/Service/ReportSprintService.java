@@ -1,4 +1,4 @@
-package BussinessLayer.Service;
+package Bussinesslayer.service;
 
 public class ReportSprintService {
     
