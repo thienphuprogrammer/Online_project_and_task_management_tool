@@ -1,4 +1,4 @@
-package bussinesslayer.entity.space;
+package Bussinesslayer.entity.space;
 
 import java.time.LocalDate;
 
