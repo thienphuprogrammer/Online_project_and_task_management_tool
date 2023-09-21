@@ -13,6 +13,9 @@ public class Backlog {
         this.fileURL = fileURL;
     }
 
+    public Backlog() {
+    }
+
     public int getId() {
         return id;
     }
